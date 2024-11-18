@@ -1,0 +1,58 @@
+header{
+    display: grid;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+footer{
+    display: grid;
+    background-color: black;
+    clear: left;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header img, footer div{
+    margin: auto;
+    padding: 15px;
+}
+
+header div{
+    border-top: solid #8A8070;
+    border-bottom: solid #8A8070;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+footer a:link, footer a:visited{
+    color: white;
+}
+
+header div a:hover, footer a:hover{
+    color: #7ABA96;
+}
+
+form{
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 40%;
+}
+
+textarea{
+    resize: both;
+}
