@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="recepta.xslt" type="text/xslt"?>
+<recetas>
+    <receta>
+        <titulo>tacos</titulo>
+        <imagen>../imatges/tacos</imagen>
+        <ingredientes>
+            <elemento>
+                <ingrediente>taco</ingrediente>
+                <ingrediente>taco</ingrediente>
+                <ingrediente>taco</ingrediente> 
+            </elemento>
+        </ingredientes>
+        <pasos>
+            <paso>taco</paso>
+            <paso>taco</paso>
+            <paso>taco</paso>
+        </pasos>
+    </receta>
+
+    <receta>
+        <titulo>curry</titulo>
+        <imagen>../imatges/curry</imagen>
+        <ingredientes>
+            <elemento>
+                <ingrediente>curry</ingrediente>
+                <ingrediente>curry</ingrediente>
+                <ingrediente>curry</ingrediente> 
+            </elemento>
+        </ingredientes>
+        <pasos>
+            <paso>curry</paso>
+            <paso>curry</paso>
+            <paso>curry</paso>
+        </pasos>
+    </receta>
+</recetas>
