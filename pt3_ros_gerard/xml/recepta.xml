@@ -1,37 +1,599 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="recepta.xslt" type="text/xslt"?>
 <recetas>
-    <receta>
-        <titulo>tacos</titulo>
-        <imagen>../imatges/tacos</imagen>
+    <receta id="1">
+        <name>Risotto de Calabaza y Cúrcuma</name>
         <ingredientes>
-            <elemento>
-                <ingrediente>taco</ingrediente>
-                <ingrediente>taco</ingrediente>
-                <ingrediente>taco</ingrediente> 
-            </elemento>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Calabaza</ingrediente>
+            <ingrediente>Cúrcuma</ingrediente>
+            <ingrediente>Caldo de Verduras</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
         </ingredientes>
+        <tiempo>45 minutos</tiempo>
+        <dificultad>Media</dificultad>
         <pasos>
-            <paso>taco</paso>
-            <paso>taco</paso>
-            <paso>taco</paso>
+            <paso>Preparar los ingredientes...</paso>
+            <paso>Cocinar el arroz...</paso>
+            <paso>Agregar la cúrcuma y la calabaza...</paso>
         </pasos>
+        <imagen>../imatges/risotto1.jpg</imagen>
     </receta>
 
-    <receta>
-        <titulo>curry</titulo>
-        <imagen>../imatges/curry</imagen>
+    <receta id="2">
+        <name>Ensalada de Quinoa y Aguacate</name>
         <ingredientes>
-            <elemento>
-                <ingrediente>curry</ingrediente>
-                <ingrediente>curry</ingrediente>
-                <ingrediente>curry</ingrediente> 
-            </elemento>
+            <ingrediente>Quinoa</ingrediente>
+            <ingrediente>Aguacate</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Limón</ingrediente>
         </ingredientes>
+        <tiempo>30 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
         <pasos>
-            <paso>curry</paso>
-            <paso>curry</paso>
-            <paso>curry</paso>
+            <paso>Cocinar la quinoa...</paso>
+            <paso>Cortar el aguacate y el tomate...</paso>
+            <paso>Mezclar todos los ingredientes...</paso>
         </pasos>
+        <imagen>../imatges/ensalada1.jpg</imagen>    
+    </receta>
+
+    <receta id="3">
+        <name>Pollo al Curry</name>
+        <ingredientes>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Curry en Polvo</ingrediente>
+            <ingrediente>Leche de Coco</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Ajo</ingrediente>
+        </ingredientes>
+        <tiempo>60 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Cortar y dorar el pollo...</paso>
+            <paso>Preparar la salsa de curry...</paso>
+            <paso>Cocinar todo junto...</paso>
+        </pasos>  
+        <imagen>../imatges/pollo1.jpg</imagen>
+    </receta>
+
+    <receta id="4">
+        <name>Pastel de Zanahoria</name>
+        <ingredientes>
+            <ingrediente>Zanahoria</ingrediente>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Azúcar</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Aceite</ingrediente>
+        </ingredientes>
+        <tiempo>90 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar la mezcla de zanahoria...</paso>
+            <paso>Hornear el pastel...</paso>
+            <paso>Dejar enfriar y servir...</paso>
+        </pasos>
+        <imagen>../imatges/pastel1.jpg</imagen>
+    </receta>
+
+    <receta id="5">
+        <name>Gazpacho Andaluz</name>
+        <ingredientes>
+            <ingrediente>Tomates</ingrediente>
+            <ingrediente>Pimiento Verde</ingrediente>
+            <ingrediente>Pimiento Rojo</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Vinagre</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Lavar y cortar las verduras...</paso>
+            <paso>Batir todos los ingredientes...</paso>
+            <paso>Enfriar antes de servir...</paso>
+        </pasos>
+        <imagen>../imatges/gazpacho1.jpg</imagen>
+    </receta>
+
+    <receta id="6">
+        <name>Lasagna de Berenjena</name>
+        <ingredientes>
+            <ingrediente>Berenjena</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso</ingrediente>
+            <ingrediente>Carne Molida</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+        </ingredientes>
+        <tiempo>75 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar las berenjenas...</paso>
+            <paso>Cocinar la carne molida...</paso>
+            <paso>Montar la lasagna...</paso>
+        </pasos>
+        <imagen>../imatges/lasagna1.jpg</imagen>
+    </receta>
+
+    <receta id="7">
+        <name>Sopa de Lentejas</name>
+        <ingredientes>
+            <ingrediente>Lentejas</ingrediente>
+            <ingrediente>Zanahoria</ingrediente>
+            <ingrediente>Apio</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+        </ingredientes>
+        <tiempo>50 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Remojar las lentejas...</paso>
+            <paso>Cortar las verduras...</paso>
+            <paso>Cocinar todo junto...</paso>
+        </pasos>
+            <imagen>../imatges/sopa1.jpg</imagen>
+    </receta>
+
+    <receta id="8">
+        <name>Pizza Margarita</name>
+        <ingredientes>
+            <ingrediente>Masa para Pizza</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso Mozzarella</ingrediente>
+            <ingrediente>Albahaca</ingrediente>
+            <ingrediente>Aceite de Oliva</ingrediente>
+        </ingredientes>
+        <tiempo>25 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Preparar la masa...</paso>
+            <paso>Colocar los ingredientes sobre la masa...</paso>
+            <paso>Hornear la pizza...</paso>
+        </pasos>
+        <imagen>../imatges/pizza1.jpg</imagen>
+    </receta>
+
+    <receta id="9">
+        <name>Ceviche de Pescado</name>
+        <ingredientes>
+            <ingrediente>Pescado</ingrediente>
+            <ingrediente>Limón</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Pimiento</ingrediente>
+            <ingrediente>Cilantro</ingrediente>
+        </ingredientes>
+        <tiempo>40 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Cortar el pescado en cubos...</paso>
+            <paso>Marinar con limón...</paso>
+            <paso>Agregar los demás ingredientes...</paso>
+        </pasos>
+        <imagen>../imatges/ceviche1.jpg</imagen>
+    </receta>
+
+    <receta id="10">
+        <name>Panqueques de Avena</name>
+        <ingredientes>
+            <ingrediente>Avena</ingrediente>
+            <ingrediente>Leche</ingrediente>
+            <ingrediente>Huevo</ingrediente>
+            <ingrediente>Banana</ingrediente>
+            <ingrediente>Canela</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Mezclar todos los ingredientes...</paso>
+            <paso>Cocinar los panqueques...</paso>
+            <paso>Servir con frutas...</paso>
+        </pasos>
+        <imagen>../imatges/panqueques1.jpg</imagen>
+    </receta>
+
+    <receta id="11">
+        <name>Paella Valenciana</name>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Conejo</ingrediente>
+            <ingrediente>Judías Verdes</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+                </ingredientes>
+        <tiempo>90 minutos</tiempo>
+        <dificultad>Alta</dificultad>
+        <pasos>
+            <paso>Dorar el pollo y el conejo...</paso>
+            <paso>Agregar las judías y el tomate...</paso>
+            <paso>Cocinar el arroz...</paso>
+        </pasos>
+        <imagen>../imatges/paella1.jpg</imagen>
+    </receta>
+
+    <receta id="12">
+        <name>Huevos Rellenos</name>
+        <ingredientes>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Atún</ingrediente>
+            <ingrediente>Mayonesa</ingrediente>
+            <ingrediente>Pimiento Rojo</ingrediente>
+            <ingrediente>Aceitunas</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Cocer los huevos...</paso>
+            <paso>Preparar el relleno...</paso>
+            <paso>Rellenar los huevos...</paso>
+        </pasos>
+        <imagen>../imatges/huevos1.jpg</imagen>
+    </receta>
+
+    <receta id="13">
+        <name>Crema de Calabaza</name>
+        <ingredientes>
+            <ingrediente>Calabaza</ingrediente>
+            <ingrediente>Patata</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Caldo de Pollo</ingrediente>
+            <ingrediente>Nata</ingrediente>
+        </ingredientes>
+        <tiempo>40 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Cortar y cocer la calabaza...</paso>
+            <paso>Triturar con la patata y la cebolla...</paso>
+            <paso>Agregar la nata y el caldo...</paso>
+        </pasos>
+        <imagen>../imatges/crema1.jpg</imagen>
+    </receta>
+
+    <receta id="14">
+        <name>Spaghetti Carbonara</name>
+        <ingredientes>
+            <ingrediente>Spaghetti</ingrediente>
+            <ingrediente>Panceta</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Queso Pecorino</ingrediente>
+            <ingrediente>Pimienta Negra</ingrediente>
+        </ingredientes>
+        <tiempo>25 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Cocer los spaghetti...</paso>
+            <paso>Saltear la panceta...</paso>
+            <paso>Mezclar con los huevos y el queso...</paso>
+        </pasos>
+        <imagen>../imatges/carbonara1.jpg</imagen>
+    </receta>
+
+    <receta id="15">
+        <name>Empanadas Argentinas</name>
+        <ingredientes>
+            <ingrediente>Carne Molida</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Pimiento Rojo</ingrediente>
+            <ingrediente>Aceitunas</ingrediente>
+            <ingrediente>Masa para Empanadas</ingrediente>
+        </ingredientes>
+        <tiempo>60 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar el relleno de carne...</paso>
+            <paso>Rellenar las empanadas...</paso>
+            <paso>Hornear hasta dorar...</paso>
+        </pasos>
+        <imagen>../imatges/empanadas1.jpg</imagen>
+    </receta>
+
+    <receta id="16">
+        <name>Tacos de Pescado</name>
+        <ingredientes>
+            <ingrediente>Pescado</ingrediente>
+            <ingrediente>Tortillas</ingrediente>
+            <ingrediente>Col</ingrediente>
+            <ingrediente>Zanahoria</ingrediente>
+            <ingrediente>Mayonesa</ingrediente>
+        </ingredientes>
+        <tiempo>30 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Preparar el pescado...</paso>
+            <paso>Calentar las tortillas...</paso>
+            <paso>Montar los tacos...</paso>
+        </pasos>
+            <imagen>../imatges/tacos1.jpg</imagen>
+    </receta>
+
+    <receta id="17">
+        <name>Papas Bravas</name>
+        <ingredientes>
+            <ingrediente>Papas</ingrediente>
+            <ingrediente>Aceite de Oliva</ingrediente>
+            <ingrediente>Pimentón</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Ajo</ingrediente>
+        </ingredientes>
+        <tiempo>45 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Cortar y freír las papas...</paso>
+            <paso>Preparar la salsa brava...</paso>
+            <paso>Servir con la salsa encima...</paso>
+        </pasos>
+        <imagen>../imatges/papas1.jpg</imagen>
+    </receta>
+
+    <receta id="18">
+        <name>Crepes con Nutella</name>
+        <ingredientes>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Leche</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Nutella</ingrediente>
+            <ingrediente>Mantequilla</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Preparar la mezcla de crepes...</paso>
+            <paso>Cocinar los crepes en una sartén...</paso>
+            <paso>Untar con Nutella y servir...</paso>
+        </pasos>
+        <imagen>../imatges/crepes1.jpg</imagen>
+    </receta>
+
+    <receta id="19">
+        <name>Ensalada César</name>
+        <ingredientes>
+            <ingrediente>Lechuga Romana</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Queso Parmesano</ingrediente>
+            <ingrediente>Croutones</ingrediente>
+            <ingrediente>Aderezo César</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Preparar la lechuga...</paso>
+            <paso>Cocinar el pollo...</paso>
+            <paso>Mezclar todos los ingredientes...</paso>
+        </pasos>
+        
+            <imagen>../imatges/cesar1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="20">
+        <name>Sushi de Salmón</name>
+        <ingredientes>
+            <ingrediente>Arroz para Sushi</ingrediente>
+            <ingrediente>Salmón</ingrediente>
+            <ingrediente>Alga Nori</ingrediente>
+            <ingrediente>Vinagre de Arroz</ingrediente>
+            <ingrediente>Wasabi</ingrediente>
+        </ingredientes>
+        <tiempo>60 minutos</tiempo>
+        <dificultad>Alta</dificultad>
+        <pasos>
+            <paso>Preparar el arroz para sushi...</paso>
+            <paso>Cortar el salmón...</paso>
+            <paso>Enrollar el sushi...</paso>
+        </pasos>
+        
+            <imagen>../imatges/sushi1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="21">
+        <name>Hamburguesa Vegana</name>
+        <ingredientes>
+            <ingrediente>Frijoles Negros</ingrediente>
+            <ingrediente>Pan de Hamburguesa</ingrediente>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Palta</ingrediente>
+        </ingredientes>
+        <tiempo>40 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar las hamburguesas de frijoles...</paso>
+            <paso>Cocinar las hamburguesas...</paso>
+            <paso>Montar la hamburguesa...</paso>
+        </pasos>
+        
+            <imagen>../imatges/hamburguesa1.jpg</imagen>
+        
+            
+        <tiempo>40 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar las hamburguesas de frijoles...</paso>
+            <paso>Cocinar las hamburguesas...</paso>
+            <paso>Montar la hamburguesa...</paso>
+        </pasos>
+        
+            <imagen>../imatges/hamburguesa1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="22">
+        <name>Tarta de Manzana</name>
+        <ingredientes>
+            <ingrediente>Manzanas</ingrediente>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Azúcar</ingrediente>
+            <ingrediente>Mantequilla</ingrediente>
+            <ingrediente>Canela</ingrediente>
+        </ingredientes>
+        <tiempo>90 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Preparar la masa...</paso>
+            <paso>Hacer el relleno de manzana...</paso>
+            <paso>Hornear la tarta...</paso>
+        </pasos>
+        
+            <imagen>../imatges/tarta1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="23">
+        <name>Pollo a la Plancha</name>
+        <ingredientes>
+            <ingrediente>Pechugas de Pollo</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
+            <ingrediente>Aceite de Oliva</ingrediente>
+            <ingrediente>Limón</ingrediente>
+        </ingredientes>
+        <tiempo>20 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Calentar la plancha...</paso>
+            <paso>Cocinar el pollo...</paso>
+            <paso>Servir con limón...</paso>
+        </pasos>
+        
+            <imagen>../imatges/pollo_plancha1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="24">
+        <name>Pizza Margarita</name>
+        <ingredientes>
+            <ingrediente>Masa de Pizza</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso Mozzarella</ingrediente>
+            <ingrediente>Albahaca</ingrediente>
+            <ingrediente>Aceite de Oliva</ingrediente>
+        </ingredientes>
+        <tiempo>30 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Preparar la masa...</paso>
+            <paso>Agregar los ingredientes...</paso>
+            <paso>Hornear hasta que esté dorada...</paso>
+        </pasos>
+        
+            <imagen>../imatges/pizza1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="25">
+        <name>Galletas de Chocolate</name>
+        <ingredientes>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Azúcar</ingrediente>
+            <ingrediente>Mantequilla</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Chocolate</ingrediente>
+        </ingredientes>
+        <tiempo>45 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Mezclar los ingredientes secos...</paso>
+            <paso>Agregar los ingredientes húmedos...</paso>
+            <paso>Hornear las galletas...</paso>
+        </pasos>
+        
+            <imagen>../imatges/galletas1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="26">
+        <name>Batido de Fresas</name>
+        <ingredientes>
+            <ingrediente>Fresas</ingrediente>
+            <ingrediente>Leche</ingrediente>
+            <ingrediente>Yogur</ingrediente>
+            <ingrediente>Miel</ingrediente>
+            <ingrediente>Hielo</ingrediente>
+        </ingredientes>
+        <tiempo>10 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Limpiar y cortar las fresas...</paso>
+            <paso>Mezclar todos los ingredientes en la licuadora...</paso>
+            <paso>Servir frío...</paso>
+        </pasos>
+        
+            <imagen>../imatges/batido1.jpg</imagen>
+        
+    </receta>
+
+    <receta id="27">
+        <name>Arroz con Pollo</name>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Pimiento Rojo</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Caldo de Pollo</ingrediente>
+        </ingredientes>
+        <tiempo>60 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Dorar el pollo...</paso>
+            <paso>Agregar las verduras...</paso>
+            <paso>Cocinar el arroz con el caldo...</paso>
+        </pasos>
+        <imagen>../imatges/arroz_pollo1.jpg</imagen>
+    </receta>
+
+    <receta id="28">
+        <name>Chili con Carne</name>
+        <ingredientes>
+            <ingrediente>Carne Molida</ingrediente>
+            <ingrediente>Frijoles</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Pimiento Rojo</ingrediente>
+            <ingrediente>Especias para Chili</ingrediente>
+        </ingredientes>
+        <tiempo>75 minutos</tiempo>
+        <dificultad>Media</dificultad>
+        <pasos>
+            <paso>Dorar la carne molida...</paso>
+            <paso>Agregar los frijoles y el tomate...</paso>
+            <paso>Cocinar a fuego lento...</paso>
+        </pasos>
+        <imagen>../imatges/chili1.jpg</imagen>
+    </receta>
+
+    <receta id="29">
+        <name>Guacamole</name>
+        <ingredientes>
+            <ingrediente>Aguacate</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Limón</ingrediente>
+            <ingrediente>Cilantro</ingrediente>
+        </ingredientes>
+        <tiempo>15 minutos</tiempo>
+        <dificultad>Fácil</dificultad>
+        <pasos>
+            <paso>Pelar y machacar el aguacate...</paso>
+            <paso>Agregar los demás ingredientes...</paso>
+            <paso>Mezclar bien y servir...</paso>
+        </pasos>
+        <imagen>../imatges/guacamole1.jpg</imagen>
+    </receta>
+
+    <receta id="30">
+        <name>Crema Catalana</name>
+        <ingredientes>
+            <ingrediente>Leche</ingrediente>
+            <ingrediente>Yemas de Huevo</ingrediente>
+            <ingrediente>Azúcar</ingrediente>
+            <ingrediente>Maicena</ingrediente>
+            <ingrediente>Canela</ingrediente>
+        </ingredientes>
+        <tiempo>50 minutos</tiempo>
+        <dificultad>Alta</dificultad>
+        <pasos>
+            <paso>Calentar la leche con la canela...</paso>
+            <paso>Mezclar las yemas con el azúcar y la maicena...</paso>
+            <paso>Combinar todo y cocinar hasta espesar...</paso>
+        </pasos>
+        <imagen>../imatges/cremac1.jpg</imagen>
     </receta>
 </recetas>
