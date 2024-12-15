@@ -1,8 +1,8 @@
 from lxml import etree
 
 # Load the XML and XSLT files
-xml_file = 'recepta.xml'    
-xslt_file = 'recepta.xslt'
+xml_file = './recepta.xml'    
+xslt_file = './recepta.xslt'
 
 # Parse the XML and XSLT files
 xml = etree.parse(xml_file)

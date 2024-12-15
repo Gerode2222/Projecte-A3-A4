@@ -22,10 +22,11 @@
                 <h1>
                     <xsl:value-of select="name" />
                 </h1>
+                <main>
                 <img><xsl:attribute name="src">
                     <xsl:value-of select="imagen" />
                 </xsl:attribute></img>
-                    <div class="receta" id="receta-{generate-id()}">
+                    <div class="ingredientes" id="receta-{generate-id()}">
                         <h1>Ingredientes:</h1>
                         <ul>
                             <xsl:for-each select="ingredientes/ingrediente">
@@ -34,6 +35,8 @@
                                 </li>
                             </xsl:for-each>
                         </ul>
+                    </div>    
+                    <div class="pasos">
                         <h1 id="pasos">Pasos:</h1>
                         <ol>
                             <xsl:for-each select="pasos/paso">
@@ -43,6 +46,7 @@
                             </xsl:for-each>
                         </ol>
                     </div>
+                </main>
                 </xsl:for-each>
             </body>
             <footer>

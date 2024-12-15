@@ -1,79 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recetas>
     <receta id="1">
-        <name>Risotto de Calabaza y Cúrcuma</name>
+        <name>Pasta con salsa de coliflor y pimienta de Jamaica</name>
         <ingredientes>
-            <ingrediente>Arroz</ingrediente>
-            <ingrediente>Calabaza</ingrediente>
-            <ingrediente>Cúrcuma</ingrediente>
-            <ingrediente>Caldo de Verduras</ingrediente>
-            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Coliflor</ingrediente>
+            <ingrediente>Aceite de oliva</ingrediente>
+            <ingrediente>Ajo picado</ingrediente>
+            <ingrediente>Caldo de verduras (o agua si prefieres)</ingrediente>
+            <ingrediente>Leche</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Queso parmesano</ingrediente>
+            <ingrediente>Pasta</ingrediente>
         </ingredientes>
-        <tiempo>45 minutos</tiempo>
+        <tiempo>30 minutos</tiempo>
         <dificultad>Media</dificultad>
         <pasos>
-            <paso>Preparar los ingredientes...</paso>
-            <paso>Cocinar el arroz...</paso>
-            <paso>Agregar la cúrcuma y la calabaza...</paso>
+            <paso>Cocer la pasta</paso>
+            <paso>Hacer la salsa cremosa...</paso>
+            <paso>Agrega la pasta escurrida a la sartén con la salsa de coliflor...</paso>
         </pasos>
-        <imagen>../imatges/risotto1.jpg</imagen>
+        <imagen>../imatges/Pasta.jpg</imagen>
     </receta>
 
     <receta id="2">
-        <name>Ensalada de Quinoa y Aguacate</name>
+        <name>Galletas de avena, rosa y lima</name>
         <ingredientes>
-            <ingrediente>Quinoa</ingrediente>
-            <ingrediente>Aguacate</ingrediente>
-            <ingrediente>Tomate</ingrediente>
-            <ingrediente>Cebolla</ingrediente>
-            <ingrediente>Limón</ingrediente>
+            <ingrediente>Avena en hojuelas</ingrediente>
+            <ingrediente>Azúcar</ingrediente>
+            <ingrediente>Mantequilla</ingrediente>
+            <ingrediente>Huevo</ingrediente>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Polvo de hornear</ingrediente>
+            <ingrediente>Esencia de rosa</ingrediente>
+            <ingrediente>Ralladura de lima</ingrediente>
+            <ingrediente>Sal</ingrediente>
         </ingredientes>
-        <tiempo>30 minutos</tiempo>
+        <tiempo>25 minutos</tiempo>
         <dificultad>Fácil</dificultad>
         <pasos>
-            <paso>Cocinar la quinoa...</paso>
-            <paso>Cortar el aguacate y el tomate...</paso>
-            <paso>Mezclar todos los ingredientes...</paso>
+            <paso>Precalentar el horno a 180°C.</paso>
+            <paso>Mezclar la mantequilla con el azúcar hasta obtener una crema suave.</paso>
+            <paso>Añadir el huevo y batir bien.</paso>
+            <paso>Incorporar la avena, la harina, el polvo de hornear y la sal.</paso>
+            <paso>Agregar la esencia de rosa y la ralladura de lima.</paso>
+            <paso>Formar bolitas con la masa y colocarlas en una bandeja de horno.</paso>
+            <paso>Hornear durante 12-15 minutos o hasta que estén doradas.</paso>
+            <paso>Dejar enfriar antes de servir.</paso>
         </pasos>
-        <imagen>../imatges/ensalada1.jpg</imagen>    
+        <imagen>../imatges/galletas.jpg</imagen>    
     </receta>
 
     <receta id="3">
-        <name>Pollo al Curry</name>
+        <name>Mijo cremoso con lentejas, hortalizas y shiitake</name>
         <ingredientes>
-            <ingrediente>Pollo</ingrediente>
-            <ingrediente>Curry en Polvo</ingrediente>
-            <ingrediente>Leche de Coco</ingrediente>
-            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Mijo</ingrediente>
+            <ingrediente>Lentejas</ingrediente>
+            <ingrediente>Setas shiitake</ingrediente>
+            <ingrediente>Zanahoria</ingrediente>
+            <ingrediente>Puerro</ingrediente>
             <ingrediente>Ajo</ingrediente>
+            <ingrediente>Caldo de verduras</ingrediente>
+            <ingrediente>Leche de coco</ingrediente>
+            <ingrediente>Aceite de oliva</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
         </ingredientes>
         <tiempo>60 minutos</tiempo>
         <dificultad>Media</dificultad>
         <pasos>
-            <paso>Cortar y dorar el pollo...</paso>
-            <paso>Preparar la salsa de curry...</paso>
-            <paso>Cocinar todo junto...</paso>
+            <paso>Enjuagar el mijo y cocerlo en agua con una pizca de sal hasta que esté tierno.</paso>
+            <paso>En una sartén, calentar el aceite de oliva y sofreír el ajo, puerro y zanahoria picados.</paso>
+            <paso>Añadir las lentejas cocidas y las setas shiitake troceadas.</paso>
+            <paso>Verter el caldo de verduras y la leche de coco, cocinando a fuego lento.</paso>
+            <paso>Agregar el mijo cocido y mezclar bien, ajustando la sal y pimienta al gusto.</paso>
+            <paso>Cocinar todo junto por unos minutos hasta que esté cremoso y bien integrado.</paso>
+            <paso>Servir caliente.</paso>
         </pasos>  
-        <imagen>../imatges/pollo1.jpg</imagen>
+        <imagen>../imatges/mijo.jpg</imagen>
     </receta>
 
     <receta id="4">
-        <name>Pastel de Zanahoria</name>
+        <name>Calabacines rellenos de arroz negro y calabaza</name>
         <ingredientes>
-            <ingrediente>Zanahoria</ingrediente>
-            <ingrediente>Harina</ingrediente>
-            <ingrediente>Azúcar</ingrediente>
-            <ingrediente>Huevos</ingrediente>
-            <ingrediente>Aceite</ingrediente>
+            <ingrediente>Calabacines</ingrediente>
+            <ingrediente>Arroz negro</ingrediente>
+            <ingrediente>Calabaza</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+            <ingrediente>Ajo</ingrediente>
+            <ingrediente>Aceite de oliva</ingrediente>
+            <ingrediente>Caldo de verduras</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Perejil fresco</ingrediente>
         </ingredientes>
         <tiempo>90 minutos</tiempo>
         <dificultad>Media</dificultad>
         <pasos>
-            <paso>Preparar la mezcla de zanahoria...</paso>
-            <paso>Hornear el pastel...</paso>
-            <paso>Dejar enfriar y servir...</paso>
+            <paso>Precalentar el horno a 180°C.</paso>
+            <paso>Cortar los calabacines por la mitad y vaciar su interior.</paso>
+            <paso>Cocer el arroz negro en caldo de verduras hasta que esté tierno.</paso>
+            <paso>En una sartén, calentar el aceite y sofreír la cebolla y el ajo picados.</paso>
+            <paso>Agregar la calabaza cortada en cubos pequeños y cocinar hasta que esté tierna.</paso>
+            <paso>Mezclar la calabaza cocida con el arroz negro, ajustando sal y pimienta.</paso>
+            <paso>Rellenar los calabacines con la mezcla de arroz y calabaza.</paso>
+            <paso>Colocar los calabacines en una bandeja y hornear durante 20-25 minutos.</paso>
+            <paso>Espolvorear con perejil fresco antes de servir.</paso>
         </pasos>
-        <imagen>../imatges/pastel1.jpg</imagen>
+        <imagen>../imatges/calabacines.jpg</imagen>
     </receta>
 
     <receta id="5">
